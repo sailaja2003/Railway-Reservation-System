@@ -1,0 +1,32 @@
+S.No.  Train No   From            Dep.Time       To        Arr.Time      Fare	   No. of seats
+
+1	100       Howrah          17:05	      New Delhi      10:00        Rs.1200	20
+
+2	101 	  Mumbai          17:30        New Delhi     09:05        Rs.1800	20	
+	
+3	102       Ahmedabad       18:20        New Delhi     08:00        Rs.1650 	20
+	
+4	103       Bengaluru       10:20        Hyderabad     20:40        Rs.900	20
+	
+5	104       Bengaluru       20:30        New Delhi     05:55        Rs.2200 	20	
+		
+6 	105       New Delhi       16:45        Dibrugarh     07:00        Rs.1440	20
+		
+7 	106       New Delhi       16:00        Bilaspur      12:00        Rs.1105	20
+		
+8 	107       Bhubaneswar     10:00        New Delhi     10:45        Rs.1575	20
+			
+9 	108       New Delhi       21:10        Jammu Tawi    05:45        Rs.1350	20
+		
+10 	109       New Delhi       16:00        Chennai       20:40        Rs.2870	20
+		
+11 	110       New Delhi       15:30        Ranchi        10:00        Rs.1490	20
+		
+12 	111       New Delhi       1125         Madgaon       12:50        Rs.2000	20
+	
+13 	112       New Delhi       16:00        Secunderabad  14:00        Rs.1950	20
+
+14 	113       Chennai         06:35        Bengaluru     10:30        Rs.1300	20
+	
+15	114	    Agartala      19:00        New Delhi     11:20        Rs.2990	20
+ 
