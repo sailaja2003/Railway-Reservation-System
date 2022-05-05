@@ -189,8 +189,6 @@ if(pd.d.mm>=1 && pd.d.mm<=12 && pd.d.dd>=1 && pd.d.dd<=max1)
 	system("cls");
 	FILE *t;
 	char str;
-	//printf("\nReading an existing file:");
-	//printf("\nInput file to be opened:\n");
 	t = fopen("view_trains.txt","r");
 	if(t==NULL)
 		{
@@ -449,9 +447,9 @@ int login_system()
 {
 int i;
 int comparision=0;
-char user_name[25];//to get the username
+char user_name[25];
 char user[][25]={"sailaja","rachana","sarveksha"};
-char password[25];//to get the password
+char password[25];
 char pass[][25]={"pass1","pass2","pass3"};
 char ch;
 
@@ -468,11 +466,11 @@ while(1)
 	break;
 	}
 	else if(ch=='\b')
-	{       if(i!=0) // to avoid the ENTER instructions getting deleted 
+	{       if(i!=0) 
 		{
-			printf("\b");  // backspace to move cursor one pos back
-			printf("%c",32);/*making the char invisible which was entered when backspace is pressed ,32 ascii val of char space*/
-			printf("\b"); // backspace to move cursor one pos back
+			printf("\b");  
+			printf("%c",32);
+			printf("\b"); 
 			i--;
 			password[i]='\0';
 		}
@@ -484,7 +482,7 @@ while(1)
 	}
 	else
 	{
-	putchar('*');// char - '*' will be printed instead of the entered character 
+	putchar('*');
 	password[i]=ch;
 	i++;
 	}
